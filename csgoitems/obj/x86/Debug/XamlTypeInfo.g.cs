@@ -132,17 +132,21 @@ namespace csgoitems.csgoitems_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "csgoitems.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "csgoitems.HomeView";
+            _typeNameTable[3] = "csgoitems.View.FavouritesPage";
+            _typeNameTable[4] = "csgoitems.View.HomePage";
+            _typeNameTable[5] = "csgoitems.View.SearchPage";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::csgoitems.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::csgoitems.HomeView);
+            _typeTable[3] = typeof(global::csgoitems.View.FavouritesPage);
+            _typeTable[4] = typeof(global::csgoitems.View.HomePage);
+            _typeTable[5] = typeof(global::csgoitems.View.SearchPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -178,7 +182,9 @@ namespace csgoitems.csgoitems_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::csgoitems.MainPage(); }
-        private object Activate_3_HomeView() { return new global::csgoitems.HomeView(); }
+        private object Activate_3_FavouritesPage() { return new global::csgoitems.View.FavouritesPage(); }
+        private object Activate_4_HomePage() { return new global::csgoitems.View.HomePage(); }
+        private object Activate_5_SearchPage() { return new global::csgoitems.View.SearchPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -205,9 +211,23 @@ namespace csgoitems.csgoitems_XamlTypeInfo
                 xamlType = new global::csgoitems.csgoitems_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  csgoitems.HomeView
+            case 3:   //  csgoitems.View.FavouritesPage
                 userType = new global::csgoitems.csgoitems_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_HomeView;
+                userType.Activator = Activate_3_FavouritesPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  csgoitems.View.HomePage
+                userType = new global::csgoitems.csgoitems_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_HomePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  csgoitems.View.SearchPage
+                userType = new global::csgoitems.csgoitems_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_SearchPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

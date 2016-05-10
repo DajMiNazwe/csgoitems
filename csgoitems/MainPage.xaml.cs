@@ -31,5 +31,20 @@ namespace csgoitems
         {
             MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
         }
+
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(View.HomePage));
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(View.SearchPage));
+        }
+
+        private void FavouritesButton_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(View.FavouritesPage));
+        }
     }
 }

@@ -8,33 +8,34 @@
     mc:Ignorable="d" Height="577.814" Width="1525.992">
 
 
-    <SplitView x:Name="MainSplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+    <SplitView x:ConnectionId='1' x:Name="MainSplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="150">
         <SplitView.Pane>
             <StackPanel Background="Gray">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
+                <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent"                              />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="Home" FontFamily="Segoe MDL2 Assets" Content="&#xE825;"
-                    Width="50" Height="50" Background="Transparent" Click="HomeButton_Click"/>
+                    <Button x:ConnectionId='5' x:Name="Home" FontFamily="Segoe MDL2 Assets" Content="&#xE825;"
+                    Width="50" Height="50" Background="Transparent"                         />
                     <TextBlock Text="Home" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="Search" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
-                        Width="50" Height="50" Background="Transparent" Click="SearchButton_Click"/>
+                    <Button x:ConnectionId='4' x:Name="Search" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
+                        Width="50" Height="50" Background="Transparent"                           />
                     <TextBlock Text="Search" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="Favourites" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
-                        Width="50" Height="50" Background="Transparent" Click="FavouritesButton_Click"/>
+                    <Button x:ConnectionId='3' x:Name="Favourites" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                        Width="50" Height="50" Background="Transparent"                               />
                     <TextBlock Text="Favourites" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>
             </StackPanel>
         </SplitView.Pane>
         <SplitView.Content>
             <Grid>
-                <Frame x:Name="ContentFrame"/>
+                <Frame x:ConnectionId='6' x:Name="ContentFrame"/>
             </Grid>
         </SplitView.Content>
     </SplitView>
 </Page>
+
