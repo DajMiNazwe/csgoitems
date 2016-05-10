@@ -1,0 +1,1 @@
+c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\csgoitems.csproj;x86
