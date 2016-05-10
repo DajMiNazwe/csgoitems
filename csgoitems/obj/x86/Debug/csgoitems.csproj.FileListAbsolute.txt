@@ -194,3 +194,8 @@ c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\ob
 c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\qualifiers.txt.intermediate
 c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\ProjectArchitectures.txt
+c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\View\HomeView.xaml
+c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\View\HomeView.xbf
+c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\View\HomeView.g.i.cs
+c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\View\HomeView.g.cs
+c:\users\dajminazwe\documents\visual studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\View\HomeView.xbf
