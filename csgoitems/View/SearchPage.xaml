@@ -49,12 +49,15 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
-        <Button x:Name="buttonSearch" Content="Search" VerticalAlignment="Top" Click="Observe_Click"/>
-        <TextBox x:Name="textBoxSearch" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="66,18,66,0" />
+        <Button x:Name="buttonSearch" Command="{Binding GetItemCommand}" Content="Search" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxSearch" Text="{Binding Name, Mode=TwoWay}" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="66,18,66,0" />
 
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,84,0,0">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="1066">
-                <TextBlock x:Name="itemTextBlock" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
+                <TextBlock Text="{Binding ItemName, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
+                <TextBlock Text="{Binding LowestPrice, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
+                <TextBlock Text="{Binding AveragePrice, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
+                <TextBlock Text="{Binding HighestPrice, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
             </StackPanel>
         </ScrollViewer>
     </Grid>

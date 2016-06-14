@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-14T13:29:26.352</Modified>
+      <Modified>2016-06-14T14:46:55.126</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\csgoitems.exe">
       <PackagePath>entrypoint\csgoitems.exe</PackagePath>
-      <Modified>2016-06-14T13:29:26.130</Modified>
+      <Modified>2016-06-14T14:46:54.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -506,7 +506,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\csgoitems.xr.xml">
       <PackagePath>csgoitems.xr.xml</PackagePath>
-      <Modified>2016-06-14T12:46:13.456</Modified>
+      <Modified>2016-06-14T14:46:54.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -514,11 +514,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-14T13:21:39.843</Modified>
+      <Modified>2016-06-14T14:46:55.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\Core\csgoitems.exe">
       <PackagePath>csgoitems.exe</PackagePath>
-      <Modified>2016-06-14T13:29:26.350</Modified>
+      <Modified>2016-06-14T14:46:55.124</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
