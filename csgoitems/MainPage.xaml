@@ -5,7 +5,7 @@
     xmlns:local="using:csgoitems"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="577.814" Width="1525.992">
+    mc:Ignorable="d" Height="577.814" Width="461.437">
 
 
     <SplitView x:Name="MainSplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 

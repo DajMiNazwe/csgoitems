@@ -209,3 +209,5 @@ C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\ob
 C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\View\FavouritesPage.xbf
 C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\View\FavouritesPage.xbf
 C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\View\SearchPage.xbf
+C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\System.Net.Http.Primitives.dll
