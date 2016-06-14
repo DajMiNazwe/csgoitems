@@ -26,7 +26,7 @@ namespace csgoitems.View
         public FavouritesPage()
         {
             this.InitializeComponent();
-            DataContext = new ItemsViewModel();
+            DataContext = new FavouriteItemsViewModel();
         }
     }
 }
