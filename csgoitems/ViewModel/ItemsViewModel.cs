@@ -13,7 +13,7 @@ using System.IO;
 
 namespace csgoitems.ViewModel
 {
-    class CharactersViewModel : MainViewModel
+    class ItemsViewModel : MainViewModel
     {
         private String name;
         private String lowestPrice = "";

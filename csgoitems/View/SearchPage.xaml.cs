@@ -1,4 +1,5 @@
 ﻿using csgoitems.Model;
+using csgoitems.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -27,6 +28,7 @@ namespace csgoitems.View
         public SearchPage()
         {
             this.InitializeComponent();
+            DataContext = new ItemsViewModel();
         }
 
     }

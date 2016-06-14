@@ -10,22 +10,6 @@ using System.IO;
 
 namespace csgoitems.Model
 {
-    public class ItemsLogic
-    {
-        public async static Task<Items> GetItems(String name)
-        {
-            var http = new HttpClient();
-            var url = String.Format("http://api.csgo.steamlytics.xyz/v1/prices/{0}?key=8d800960760fe478c06f3d90e4dcee7a",name);
-            var response = await http.GetAsync(url);
-            var result = await response.Content.ReadAsStringAsync();
-            var serializer = new DataContractJsonSerializer(typeof(Items));
-            var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
-            var data = (Items)serializer.ReadObject(ms);
-
-            return data;
-
-        }
-    }
     [DataContract]
     public class Items
     {

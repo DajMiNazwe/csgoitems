@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#FFDEB1B1">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="VisualState000min">
@@ -52,12 +52,29 @@
         <Button x:Name="buttonSearch" Command="{Binding GetItemCommand}" Content="Search" VerticalAlignment="Top"/>
         <TextBox x:Name="textBoxSearch" Text="{Binding Name, Mode=TwoWay}" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="66,18,66,0" />
 
-        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,84,0,0">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,84,0,0" Background="#FF473131">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="1066">
-                <TextBlock Text="{Binding ItemName, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
-                <TextBlock Text="{Binding LowestPrice, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
-                <TextBlock Text="{Binding AveragePrice, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
-                <TextBlock Text="{Binding HighestPrice, Mode=TwoWay}" Width="355" TextAlignment="Left" TextWrapping="Wrap" FontSize="18" />
+                <TextBlock Text="{Binding ItemName, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" />
+                <Grid>
+                    <Ellipse Fill="#90EE90" Height="100" Stroke="Black" Width="100"/>
+                    <TextBlock Text="Min." Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
+                    <TextBlock Text="{Binding LowestPrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                </Grid>
+                <Grid>
+                    <TextBlock></TextBlock>
+                </Grid>
+                <Grid>
+                    <Ellipse Fill="#EEEE90" Height="100" Stroke="Black" Width="100"/>
+                    <TextBlock Text="Avg." Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
+                    <TextBlock Text="{Binding AveragePrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                </Grid>
+                <Grid>
+                    <TextBlock></TextBlock></Grid>
+                <Grid>
+                    <Ellipse Fill="#C67171" Height="100" Stroke="Black" Width="100"/>
+                    <TextBlock Text="Max." Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
+                    <TextBlock Text="{Binding HighestPrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                </Grid>
             </StackPanel>
         </ScrollViewer>
     </Grid>
