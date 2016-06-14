@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>03f66044-1c78-4b34-8701-6890e90e6ede</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>898FF3ADD8642775F28CACF47979053E2B4C61F3E076D45FD66FF1BEE04FAA77</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D66BDB0A99C8087521EA6762B5EA0993F49490FAFEE306EF6737CB7943867944</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>03f66044-1c78-4b34-8701-6890e90e6ede_1.0.0.0_x86__6dmrbd2mqyry2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>03f66044-1c78-4b34-8701-6890e90e6ede_6dmrbd2mqyry2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>03f66044-1c78-4b34-8701-6890e90e6ede</RegisteredPackageID>
@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-14T22:28:20.683</Modified>
+      <Modified>2016-06-14T22:55:11.807</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\csgoitems.exe">
       <PackagePath>entrypoint\csgoitems.exe</PackagePath>
-      <Modified>2016-06-14T22:28:20.167</Modified>
+      <Modified>2016-06-14T22:55:11.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -474,9 +474,10 @@
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2016-05-10T14:17:37.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-05-10T14:17:21.700</Modified>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-14T22:45:11.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -512,6 +513,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2016-05-10T14:17:21.700</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\csgoitems.xr.xml">
       <PackagePath>csgoitems.xr.xml</PackagePath>
       <Modified>2016-06-14T22:25:59.240</Modified>
@@ -526,11 +531,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-14T22:28:20.542</Modified>
+      <Modified>2016-06-14T22:55:11.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\Core\csgoitems.exe">
       <PackagePath>csgoitems.exe</PackagePath>
-      <Modified>2016-06-14T22:28:20.681</Modified>
+      <Modified>2016-06-14T22:55:11.805</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

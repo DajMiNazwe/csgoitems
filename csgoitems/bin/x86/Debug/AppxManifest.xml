@@ -23,9 +23,17 @@
   <Applications>
     <Application Id="App" Executable="csgoitems.exe" EntryPoint="csgoitems.App">
       <uap:VisualElements DisplayName="csgoitems" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="csgoitems" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+          <uap:TileUpdate Recurrence="halfHour" UriTemplate="http://api.csgo.steamlytics.xyz/v1/items/popular?limit=5&amp;key=8d800960760fe478c06f3d90e4dcee7a" />
+        </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="http://api.csgo.steamlytics.xyz/v1/items/popular?limit=5&amp;key=8d800960760fe478c06f3d90e4dcee7a" Type="include" WindowsRuntimeAccess="none" />
+      </uap:ApplicationContentUriRules>
     </Application>
   </Applications>
   <Capabilities>
