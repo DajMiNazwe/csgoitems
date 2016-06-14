@@ -1,4 +1,5 @@
-﻿using System;
+﻿using csgoitems.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace csgoitems.View
         public FavouritesPage()
         {
             this.InitializeComponent();
+            DataContext = new ItemsViewModel();
         }
     }
 }

@@ -99,12 +99,14 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Command\GetItemCommand.cs" />
-    <Compile Include="Data\GetItems.cs" />
+    <Compile Include="Command\GetTopItemsCommand.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Items.cs" />
+    <Compile Include="Model\TopItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\FavouriteItemsViewModel.cs" />
     <Compile Include="ViewModel\ItemsViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="View\FavouritesPage.xaml.cs">
