@@ -1,1 +1,2 @@
+C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\BackgroundTasks\BackgroundTasks.csproj;x86
 C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\csgoitems.csproj;x86

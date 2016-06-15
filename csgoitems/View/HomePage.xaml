@@ -9,6 +9,7 @@
 
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock>HOME</TextBlock>
+        <TextBlock TextAlignment="Center">CS:GO Items APP!</TextBlock>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="478" Margin="10,10,0,0" VerticalAlignment="Top" Width="350" Source="ms-appx:///Assets/360fx360f.png"/>
     </Grid>
 </Page>

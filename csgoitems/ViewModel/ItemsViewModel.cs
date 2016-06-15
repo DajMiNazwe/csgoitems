@@ -19,6 +19,7 @@ namespace csgoitems.ViewModel
         private String lowestPrice = "";
         private String averagePrice = "";
         private String highestPrice = "";
+        private String success = "";
 
         public String Name
         {
@@ -72,6 +73,19 @@ namespace csgoitems.ViewModel
             }
         }
 
+        public String Success
+        {
+            get
+            {
+                return success;
+            }
+            set
+            {
+                success = value;
+                OnPropertyChanged("Success");
+            }
+        }
+
         public ICommand GetItemCommand
         {
             get
@@ -89,9 +103,16 @@ namespace csgoitems.ViewModel
             var serializer = new DataContractJsonSerializer(typeof(Items));
             var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
             var data = (Items)serializer.ReadObject(ms);
-            LowestPrice = data.lowest_price;
-            AveragePrice = data.average_price;
-            HighestPrice = data.highest_price;
+            if(data.success!=false)
+            {
+                LowestPrice = data.lowest_price;
+                AveragePrice = data.average_price;
+                HighestPrice = data.highest_price;
+            }
+            else
+            {
+                Success = "Couldnt find anything to match";
+            }
 
         }
 

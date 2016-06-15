@@ -214,3 +214,6 @@ C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bi
 C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\MyToolkit.dll
 C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\MyToolkit.Extended.dll
 C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\MyToolkit.Extended.pri.xml
+C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\BackgroundTasks.winmd
+C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\BackgroundTasks.pdb
+C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\BackgroundTasks.pri

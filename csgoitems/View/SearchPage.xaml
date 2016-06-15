@@ -32,6 +32,18 @@
                         <Setter Target="textBoxSearch.HorizontalAlignment" Value="Center" />
                         <Setter Target="buttonSearch.Margin" Value="0,50,0,0"/>
                         <Setter Target="buttonSearch.HorizontalAlignment" Value="Center" />
+                        <Setter Target="min.Width" Value="150"/>
+                        <Setter Target="avg.Width" Value="150"/>
+                        <Setter Target="max.Width" Value="150"/>
+                        <Setter Target="min.Height" Value="150"/>
+                        <Setter Target="avg.Height" Value="150"/>
+                        <Setter Target="max.Height" Value="150"/>
+                        <Setter Target="minText.FontSize" Value="30"/>
+                        <Setter Target="avgText.FontSize" Value="30"/>
+                        <Setter Target="maxText.FontSize" Value="30"/>
+                        <Setter Target="minData.FontSize" Value="30"/>
+                        <Setter Target="avgData.FontSize" Value="30"/>
+                        <Setter Target="maxData.FontSize" Value="30"/>
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:Name="VisualState800min">
@@ -44,6 +56,18 @@
                         <Setter Target="textBoxSearch.HorizontalAlignment" Value="Center" />
                         <Setter Target="buttonSearch.Margin" Value="0,50,0,0"/>
                         <Setter Target="buttonSearch.HorizontalAlignment" Value="Center" />
+                        <Setter Target="min.Width" Value="250"/>
+                        <Setter Target="avg.Width" Value="250"/>
+                        <Setter Target="max.Width" Value="250"/>
+                        <Setter Target="min.Height" Value="250"/>
+                        <Setter Target="avg.Height" Value="250"/>
+                        <Setter Target="max.Height" Value="250"/>
+                        <Setter Target="minText.FontSize" Value="50"/>
+                        <Setter Target="avgText.FontSize" Value="50"/>
+                        <Setter Target="maxText.FontSize" Value="50"/>
+                        <Setter Target="minData.FontSize" Value="50"/>
+                        <Setter Target="avgData.FontSize" Value="50"/>
+                        <Setter Target="maxData.FontSize" Value="50"/>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
@@ -56,24 +80,25 @@
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="1066">
                 <TextBlock Text="{Binding ItemName, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" />
                 <Grid>
-                    <Ellipse Fill="#90EE90" Height="100" Stroke="Black" Width="100"/>
-                    <TextBlock Text="Min." Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
-                    <TextBlock Text="{Binding LowestPrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <Ellipse x:Name="min" Fill="#90EE90" Height="100" Stroke="Black" Width="100"/>
+                    <TextBlock x:Name="minText" Text="Min." TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
+                    <TextBlock x:Name="minData" Text="{Binding LowestPrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                </Grid>
+                <Grid>
+                    <TextBlock Text="{Binding Success, Mode=TwoWay}"></TextBlock>
+                </Grid>
+                <Grid>
+                    <Ellipse x:Name="avg" Fill="#EEEE90" Height="100" Stroke="Black" Width="100"/>
+                    <TextBlock x:Name="avgText" Text="Avg." TextAlignment="Center" TextWrapping="Wrap" FontSize="15" Margin="1,0,-1,0"/>
+                    <TextBlock x:Name="avgData" Text="{Binding AveragePrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
                 </Grid>
                 <Grid>
                     <TextBlock></TextBlock>
                 </Grid>
                 <Grid>
-                    <Ellipse Fill="#EEEE90" Height="100" Stroke="Black" Width="100"/>
-                    <TextBlock Text="Avg." Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
-                    <TextBlock Text="{Binding AveragePrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                </Grid>
-                <Grid>
-                    <TextBlock></TextBlock></Grid>
-                <Grid>
-                    <Ellipse Fill="#C67171" Height="100" Stroke="Black" Width="100"/>
-                    <TextBlock Text="Max." Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
-                    <TextBlock Text="{Binding HighestPrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <Ellipse x:Name="max" Fill="#C67171" Height="100" Stroke="Black" Width="100"/>
+                    <TextBlock x:Name="maxText" Text="Max." TextAlignment="Center" TextWrapping="Wrap" FontSize="15"/>
+                    <TextBlock x:Name="maxData" Text="{Binding HighestPrice, Mode=TwoWay}" Width="355" TextAlignment="Center" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" />
                 </Grid>
             </StackPanel>
         </ScrollViewer>

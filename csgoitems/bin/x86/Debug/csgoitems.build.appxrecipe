@@ -351,11 +351,29 @@
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\BackgroundTasks\bin\x86\Debug\BackgroundTasks.winmd">
+      <PackagePath>BackgroundTasks.winmd</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\360fx360f.png">
+      <PackagePath>Assets\360fx360f.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\Square71x71Logo.scale-150.png">
       <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\LockScreenLogo.scale-200.png">

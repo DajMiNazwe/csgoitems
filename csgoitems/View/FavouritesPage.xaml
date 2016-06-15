@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="Auto">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="VisualState000min">
@@ -17,17 +17,27 @@
                     <VisualState.Setters>
                         <Setter Target="buttonSearch.Margin" Value="0,10,0,0"/>
                         <Setter Target="buttonSearch.HorizontalAlignment" Value="Center" />
-                        <Setter Target="buttonSearch.Width" Value="300"/>
-                        <Setter Target="FirstGrid.Width" Value="360"/>
+                        <Setter Target="buttonSearch.Width" Value="250"/>
+                        <Setter Target="FirstGrid.Width" Value="300"/>
                         <Setter Target="FirstGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="SecondGrid.Width" Value="360"/>
+                        <Setter Target="SecondGrid.Width" Value="300"/>
                         <Setter Target="SecondGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="ThirdGrid.Width" Value="360"/>
+                        <Setter Target="ThirdGrid.Width" Value="300"/>
                         <Setter Target="ThirdGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="FourthGrid.Width" Value="360"/>
+                        <Setter Target="FourthGrid.Width" Value="300"/>
                         <Setter Target="FourthGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="FifthGrid.Width" Value="360"/>
+                        <Setter Target="FifthGrid.Width" Value="300"/>
                         <Setter Target="FifthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="SixthGrid.Width" Value="300"/>
+                        <Setter Target="SixthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="SeventhGrid.Width" Value="300"/>
+                        <Setter Target="SeventhGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="EightGrid.Width" Value="300"/>
+                        <Setter Target="EightGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="NinthGrid.Width" Value="300"/>
+                        <Setter Target="NinthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="TenthGrid.Width" Value="300"/>
+                        <Setter Target="TenthGrid.HorizontalAlignment" Value="Center" />
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:Name="VisualState500min">
@@ -38,16 +48,26 @@
                         <Setter Target="buttonSearch.Margin" Value="0,10,0,0"/>
                         <Setter Target="buttonSearch.HorizontalAlignment" Value="Center" />
                         <Setter Target="buttonSearch.Width" Value="400"/>
-                        <Setter Target="FirstGrid.Width" Value="410"/>
+                        <Setter Target="FirstGrid.Width" Value="450"/>
                         <Setter Target="FirstGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="SecondGrid.Width" Value="410"/>
+                        <Setter Target="SecondGrid.Width" Value="450"/>
                         <Setter Target="SecondGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="ThirdGrid.Width" Value="410"/>
+                        <Setter Target="ThirdGrid.Width" Value="450"/>
                         <Setter Target="ThirdGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="FourthGrid.Width" Value="410"/>
+                        <Setter Target="FourthGrid.Width" Value="450"/>
                         <Setter Target="FourthGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="FifthGrid.Width" Value="410"/>
+                        <Setter Target="FifthGrid.Width" Value="450"/>
                         <Setter Target="FifthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="SixthGrid.Width" Value="450"/>
+                        <Setter Target="SixthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="SeventhGrid.Width" Value="450"/>
+                        <Setter Target="SeventhGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="EightGrid.Width" Value="450"/>
+                        <Setter Target="EightGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="NinthGrid.Width" Value="450"/>
+                        <Setter Target="NinthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="TenthGrid.Width" Value="450"/>
+                        <Setter Target="TenthGrid.HorizontalAlignment" Value="Center" />
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:Name="VisualState800min">
@@ -59,60 +79,97 @@
                         <Setter Target="buttonSearch.HorizontalAlignment" Value="Center" />
                         <Setter Target="buttonSearch.Width" Value="600"/>
                         <Setter Target="buttonSearch.Height" Value="50"/>
-                        <Setter Target="FirstGrid.Width" Value="800"/>
+                        <Setter Target="FirstGrid.Width" Value="700"/>
                         <Setter Target="FirstGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="SecondGrid.Width" Value="800"/>
+                        <Setter Target="SecondGrid.Width" Value="700"/>
                         <Setter Target="SecondGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="ThirdGrid.Width" Value="800"/>
+                        <Setter Target="ThirdGrid.Width" Value="700"/>
                         <Setter Target="ThirdGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="FourthGrid.Width" Value="800"/>
+                        <Setter Target="FourthGrid.Width" Value="700"/>
                         <Setter Target="FourthGrid.HorizontalAlignment" Value="Center" />
-                        <Setter Target="FifthGrid.Width" Value="800"/>
+                        <Setter Target="FifthGrid.Width" Value="700"/>
                         <Setter Target="FifthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="SixthGrid.Width" Value="700"/>
+                        <Setter Target="SixthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="SeventhGrid.Width" Value="700"/>
+                        <Setter Target="SeventhGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="EightGrid.Width" Value="700"/>
+                        <Setter Target="EightGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="NinthGrid.Width" Value="700"/>
+                        <Setter Target="NinthGrid.HorizontalAlignment" Value="Center" />
+                        <Setter Target="TenthGrid.Width" Value="700"/>
+                        <Setter Target="TenthGrid.HorizontalAlignment" Value="Center" />
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
-        <Button x:Name="buttonSearch" Command="{Binding GetTopItemsCommand}" Content="TOP 5" VerticalAlignment="Top"/>
- 
-        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,84,0,0" Background="#FF473131">
-            <Grid>
+        <Button x:Name="buttonSearch" Command="{Binding GetTopItemsCommand}" Content="Show TOP 10" FontSize="30" VerticalAlignment="Top"/>
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,84,0,0" Background="#FF473131" Width="Auto" HorizontalScrollMode="Enabled" HorizontalScrollBarVisibility="Visible">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="1000">
+                <Grid>
 
-                <Grid x:Name="FirstGrid" Grid.Column="0" Grid.Row="0" Background="Gray">
-                    <TextBlock FontSize="40" HorizontalAlignment="Left">1#</TextBlock>
-                    <TextBlock Text="{Binding First, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                </Grid>
-                <Grid x:Name="SecondGrid" Grid.Column="0" Grid.Row="1" Background="LightGray">
-                    <TextBlock FontSize="35" HorizontalAlignment="Left">2#</TextBlock>
-                    <TextBlock Text="{Binding Second, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                </Grid>
-                <Grid x:Name="ThirdGrid" Grid.Column="0" Grid.Row="2" Background="Gray">
-                    <TextBlock FontSize="30" HorizontalAlignment="Left">3#</TextBlock>
-                    <TextBlock Text="{Binding Third, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                </Grid>
-                <Grid x:Name="FourthGrid" Grid.Column="0" Grid.Row="3" Background="LightGray">
-                    <TextBlock FontSize="25" HorizontalAlignment="Left">4#</TextBlock>
-                    <TextBlock Text="{Binding Fourth, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                </Grid>
-                <Grid x:Name="FifthGrid" Grid.Column="0" Grid.Row="4" Background="Gray">
-                    <TextBlock FontSize="20">5#</TextBlock>
-                    <TextBlock Text="{Binding Fifth, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                </Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid x:Name="FirstGrid" Grid.Column="0" Grid.Row="0" Background="Gray">
+                        <TextBlock FontSize="60" HorizontalAlignment="Left">1#</TextBlock>
+                        <TextBlock Text="{Binding First, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="SecondGrid" Grid.Column="0" Grid.Row="1" Background="LightGray">
+                        <TextBlock FontSize="55" HorizontalAlignment="Left">2#</TextBlock>
+                        <TextBlock Text="{Binding Second, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="ThirdGrid" Grid.Column="0" Grid.Row="2" Background="Gray">
+                        <TextBlock FontSize="50" HorizontalAlignment="Left">3#</TextBlock>
+                        <TextBlock Text="{Binding Third, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="FourthGrid" Grid.Column="0" Grid.Row="3" Background="LightGray">
+                        <TextBlock FontSize="45" HorizontalAlignment="Left">4#</TextBlock>
+                        <TextBlock Text="{Binding Fourth, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="FifthGrid" Grid.Column="0" Grid.Row="4" Background="Gray">
+                        <TextBlock FontSize="40">5#</TextBlock>
+                        <TextBlock Text="{Binding Fifth, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="SixthGrid" Grid.Column="0" Grid.Row="5" Background="LightGray">
+                        <TextBlock FontSize="35" HorizontalAlignment="Left">6#</TextBlock>
+                        <TextBlock Text="{Binding Sixth, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="SeventhGrid" Grid.Column="0" Grid.Row="6" Background="Gray">
+                        <TextBlock FontSize="35" HorizontalAlignment="Left">7#</TextBlock>
+                        <TextBlock Text="{Binding Seventh, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="EightGrid" Grid.Column="0" Grid.Row="7" Background="LightGray">
+                        <TextBlock FontSize="35" HorizontalAlignment="Left">8#</TextBlock>
+                        <TextBlock Text="{Binding Eight, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="NinthGrid" Grid.Column="0" Grid.Row="8" Background="Gray">
+                        <TextBlock FontSize="35" HorizontalAlignment="Left">9#</TextBlock>
+                        <TextBlock Text="{Binding Ninth, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                    <Grid x:Name="TenthGrid" Grid.Column="0" Grid.Row="9" Background="LightGray">
+                        <TextBlock FontSize="35">10#</TextBlock>
+                        <TextBlock Text="{Binding Tenth, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
 
 
-            </Grid>
+                </Grid>
+            </StackPanel>
         </ScrollViewer>
     </Grid>
 </Page>

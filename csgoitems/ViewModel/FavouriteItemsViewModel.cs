@@ -23,7 +23,11 @@ namespace csgoitems.ViewModel
         private String third;
         private String fourth;
         private String fifth;
-    
+        private String sixth;
+        private String seventh;
+        private String eight;
+        private String ninth;
+        private String tenth;
 
         public String Name
         {
@@ -112,7 +116,67 @@ namespace csgoitems.ViewModel
                 OnPropertyChanged("Fifth");
             }
         }
+        public String Sixth
+        {
+            get
+            {
+                return sixth;
+            }
+            set
+            {
+                sixth = value;
+                OnPropertyChanged("Sixth");
+            }
+        }
+        public String Seventh
+        {
+            get
+            {
+                return seventh;
+            }
+            set
+            {
+                seventh = value;
+                OnPropertyChanged("Seventh");
+            }
+        }
+        public String Eight
+        {
+            get
+            {
+                return eight;
+            }
+            set
+            {
+                eight = value;
+                OnPropertyChanged("Eight");
+            }
+        }
+        public String Ninth
+        {
+            get
+            {
+                return ninth;
+            }
+            set
+            {
+                ninth = value;
+                OnPropertyChanged("Ninth");
+            }
+        }
 
+        public String Tenth
+        {
+            get
+            {
+                return tenth;
+            }
+            set
+            {
+                tenth = value;
+                OnPropertyChanged("Tenth");
+            }
+        }
 
         public ICommand GetTopItemsCommand
         {
@@ -125,7 +189,7 @@ namespace csgoitems.ViewModel
         {
             List<String> items = new List<string>();
             var http = new HttpClient();
-            var url = String.Format("http://api.csgo.steamlytics.xyz/v1/items/popular?limit=5&key=8d800960760fe478c06f3d90e4dcee7a");
+            var url = String.Format("http://api.csgo.steamlytics.xyz/v1/items/popular?limit=10&key=8d800960760fe478c06f3d90e4dcee7a");
             var response = await http.GetAsync(url);
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(InnerItem));
@@ -144,6 +208,11 @@ namespace csgoitems.ViewModel
             Third = data.items[2].market_hash_name;
             Fourth = data.items[3].market_hash_name;
             Fifth = data.items[4].market_hash_name;
+            Sixth = data.items[5].market_hash_name;
+            Seventh = data.items[6].market_hash_name;
+            Eight = data.items[7].market_hash_name;
+            Ninth = data.items[8].market_hash_name;
+            Tenth = data.items[9].market_hash_name;
 
         }
 

@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Tenth" />
+    <RootPropertyPathName Name="Ninth" />
+    <RootPropertyPathName Name="Eight" />
+    <RootPropertyPathName Name="Seventh" />
+    <RootPropertyPathName Name="Sixth" />
     <RootPropertyPathName Name="Fifth" />
     <RootPropertyPathName Name="Fourth" />
     <RootPropertyPathName Name="Third" />
@@ -9,6 +14,7 @@
     <RootPropertyPathName Name="GetTopItemsCommand" />
     <RootPropertyPathName Name="HighestPrice" />
     <RootPropertyPathName Name="AveragePrice" />
+    <RootPropertyPathName Name="Success" />
     <RootPropertyPathName Name="LowestPrice" />
     <RootPropertyPathName Name="ItemName" />
     <RootPropertyPathName Name="Name" />
@@ -19,8 +25,6 @@
       <RootProperty Name="RequestedTheme" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
@@ -37,6 +41,7 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -46,6 +51,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
       <RootProperty Name="Command" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
@@ -55,13 +61,15 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Width" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootMethod Name="GetColumn" />
@@ -93,14 +101,29 @@
       <RootProperty Name="VerticalScrollBarVisibility" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="csgoitems.View.FavouritesPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+    </RootType>
     <RootType FullName="csgoitems.View.HomePage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />

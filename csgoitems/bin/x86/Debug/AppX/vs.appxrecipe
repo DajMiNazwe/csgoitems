@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>03f66044-1c78-4b34-8701-6890e90e6ede</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>D66BDB0A99C8087521EA6762B5EA0993F49490FAFEE306EF6737CB7943867944</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>B0FF5EEA5671969EBF48875C061E7A34F27D9198AC4D2FDCE464BE5577CE2588</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>03f66044-1c78-4b34-8701-6890e90e6ede_1.0.0.0_x86__6dmrbd2mqyry2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>03f66044-1c78-4b34-8701-6890e90e6ede_6dmrbd2mqyry2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>03f66044-1c78-4b34-8701-6890e90e6ede</RegisteredPackageID>
@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-14T22:55:11.807</Modified>
+      <Modified>2016-06-15T20:31:27.739</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\csgoitems.exe">
       <PackagePath>entrypoint\csgoitems.exe</PackagePath>
-      <Modified>2016-06-14T22:55:11.278</Modified>
+      <Modified>2016-06-15T20:31:26.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -470,14 +470,37 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-03-31T14:11:08.243</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\BackgroundTasks\bin\x86\Debug\BackgroundTasks.winmd">
+      <PackagePath>BackgroundTasks.winmd</PackagePath>
+      <Modified>2016-06-15T15:38:48.290</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2016-05-10T14:17:37.231</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\360fx360f.png">
+      <PackagePath>Assets\360fx360f.png</PackagePath>
+      <Modified>2016-06-15T16:27:43.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-15T16:11:24.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-15T15:34:54.608</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\Square71x71Logo.scale-150.png">
       <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-14T22:45:11.054</Modified>
+      <Modified>2016-06-15T15:34:25.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-15T16:12:04.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -511,7 +534,7 @@
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-20T17:06:24.000</Modified>
+      <Modified>2016-06-15T15:33:02.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -519,7 +542,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\csgoitems.xr.xml">
       <PackagePath>csgoitems.xr.xml</PackagePath>
-      <Modified>2016-06-14T22:25:59.240</Modified>
+      <Modified>2016-06-15T20:11:18.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -531,11 +554,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-14T22:55:11.652</Modified>
+      <Modified>2016-06-15T20:31:27.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DajMiNazwe\Documents\Visual Studio 2015\Projects\csgoitems\csgoitems\bin\x86\Debug\Core\csgoitems.exe">
       <PackagePath>csgoitems.exe</PackagePath>
-      <Modified>2016-06-14T22:55:11.805</Modified>
+      <Modified>2016-06-15T20:31:27.737</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
